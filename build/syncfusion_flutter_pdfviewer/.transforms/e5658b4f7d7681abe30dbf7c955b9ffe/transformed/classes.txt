@@ -1,0 +1,3 @@
+com/syncfusion/flutter/pdfviewer/PdfFileRenderer.class
+com/syncfusion/flutter/pdfviewer/R.class
+com/syncfusion/flutter/pdfviewer/SyncfusionFlutterPdfViewerPlugin.class

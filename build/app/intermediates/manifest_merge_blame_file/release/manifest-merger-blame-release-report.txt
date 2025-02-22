@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kaidju.tm_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <queries>
+11-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:29:5-34:15
+12        <intent>
+12-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:30:9-33:18
+13            <action android:name="android.intent.action.PROCESS_TEXT" />
+13-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:31:13-72
+13-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:31:21-70
+14
+15            <data android:mimeType="text/plain" />
+15-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:32:13-50
+15-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:32:19-48
+16        </intent>
+17    </queries>
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+20        android:name="com.kaidju.tm_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.kaidju.tm_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+24
+25    <application
+26        android:name="android.app.Application"
+26-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:4:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+28        android:extractNativeLibs="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:5:9-43
+30        android:label="Tm App" >
+30-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:3:9-31
+31        <activity
+31-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:6:9-23:20
+32            android:name="com.kaidju.tm_app.MainActivity"
+32-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:7:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:12:13-163
+34            android:exported="true"
+34-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:8:13-36
+35            android:hardwareAccelerated="true"
+35-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:13:13-47
+36            android:launchMode="singleTop"
+36-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:9:13-43
+37            android:taskAffinity=""
+37-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:10:13-36
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:11:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:14:13-55
+40            <meta-data
+40-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:15:13-18:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:16:15-70
+42                android:resource="@style/NormalTheme" />
+42-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:17:15-52
+43
+44            <intent-filter>
+44-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:19:13-22:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:20:17-68
+45-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:20:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:21:17-76
+47-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:21:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:24:9-26:33
+52            android:name="flutterEmbedding"
+52-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:25:13-44
+53            android:value="2" />
+53-->C:\Users\user\Desktop\Flutter app\tm_app\android\app\src\main\AndroidManifest.xml:26:13-30
+54
+55        <activity
+55-->[:url_launcher_android] C:\Users\user\Desktop\Flutter app\tm_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+56            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+56-->[:url_launcher_android] C:\Users\user\Desktop\Flutter app\tm_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+57            android:exported="false"
+57-->[:url_launcher_android] C:\Users\user\Desktop\Flutter app\tm_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+58            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+58-->[:url_launcher_android] C:\Users\user\Desktop\Flutter app\tm_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+59
+60        <uses-library
+60-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+61            android:name="androidx.window.extensions"
+61-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+62            android:required="false" />
+62-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+63        <uses-library
+63-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+64            android:name="androidx.window.sidecar"
+64-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+65            android:required="false" />
+65-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+66
+67        <provider
+67-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.kaidju.tm_app.androidx-startup"
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

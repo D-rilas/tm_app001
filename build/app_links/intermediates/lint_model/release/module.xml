@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\user\AppData\Local\Pub\Cache\hosted\pub.dev\app_links-3.5.1\android"
+    name=":app_links"
+    type="LIBRARY"
+    maven="com.llfbandit.app_links:app_links:"
+    agpVersion="8.2.1"
+    buildFolder="C:\Users\user\Desktop\Flutter app\tm_app\build\app_links"
+    bootClassPath="C:\Android_SDK\platforms\android-31\android.jar;C:\Android_SDK\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

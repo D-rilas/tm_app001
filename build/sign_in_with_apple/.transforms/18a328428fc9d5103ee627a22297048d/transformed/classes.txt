@@ -1,0 +1,6 @@
+com/aboutyou/dart_packages/sign_in_with_apple/R.class
+com/aboutyou/dart_packages/sign_in_with_apple/SignInWithAppleCallback.class
+com/aboutyou/dart_packages/sign_in_with_apple/SignInWithApplePlugin$Companion.class
+com/aboutyou/dart_packages/sign_in_with_apple/SignInWithApplePlugin$onMethodCall$1.class
+com/aboutyou/dart_packages/sign_in_with_apple/SignInWithApplePlugin.class
+com/aboutyou/dart_packages/sign_in_with_apple/SignInWithApplePluginKt.class
